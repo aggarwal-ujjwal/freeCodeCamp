@@ -17,3 +17,15 @@ HTML attributes are special words used inside the opening tag of an element to c
 All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load. For example, <img src="cat.jpg" alt="A cat"> has an alt attribute with the text A cat
 if the image is not loaded.
 
+You can link to another page with the anchor (a) element. For example, <a href='https://freecodecamp.org'></a> would link to freecodecamp.org.
+A link's text must be placed between the opening and closing tags of an anchor (a) element. For example, <a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a> is a link with the text click here to go to freeCodeCamp.org.
+
+Step 12
+In the previous step you turned the words link to cat pictures into a link by placing them between opening and closing anchor (a) tags. You can do the same to words inside of an element, such as a p element.
+In the text of your p element, turn the words cat photos into a link to https://freecatphotoapp.com by adding opening and closing anchor (a) tags around these words.
+
+dd a target attribute with the value _blank to the anchor (a) element's opening tag, so that the link opens in a new tab.
+
+Can convert image into a link as well using anchor element anf href attribute.
+
+Before adding any new content, you should make use of a section element to separate the cat photos content from the future content.
