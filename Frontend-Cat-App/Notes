@@ -29,3 +29,12 @@ dd a target attribute with the value _blank to the anchor (a) element's opening 
 Can convert image into a link as well using anchor element anf href attribute.
 
 Before adding any new content, you should make use of a section element to separate the cat photos content from the future content.
+ul=unordered list, li->list
+
+The figure element represents self-contained content and will allow you to associate an image with a caption.
+A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element. For example, <figcaption>A cute cat</figcaption> adds the caption A cute cat.
+
+After the image nested in the figure element, add a figcaption element
+<em> - emphases a word in caption
+
+
