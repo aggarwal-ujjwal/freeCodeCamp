@@ -48,4 +48,23 @@ In order for a form's data to be accessed by the location specified in the actio
 Placeholder text is used to give people a hint about what kind of information to enter into an input. For example, <input type="text" placeholder="Email address">.
 (It will show this name in the text field)
 
+To prevent a user from submitting your form when required information is missing, you need to add the required attribute to an input element. There's no need to set a value to the required attribute. Instead, just add the word required to the input element, making sure there is space between it and other attributes.
+
+Use the button element to create a clickable button. For example, <button>Click Here</button> creates a button with the text Click Here.
+The default behavior of clicking a form button without any attributes submits the form to the location specified in the form's action attribute.
+Even though you added your button below the text input, they appear next to each other on the page. That's because both input and button elements are inline elements, which don't appear on new lines.
+The button you added will submit the form by default. However, relying on default behavior may cause confusion. Add the type attribute with the value submit to the button to make it clear that it is a submit button.
+
+Remember that input elements are self-closing.(Like images)
+You can use radio buttons for questions where you want only one answer out of multiple options.
+
+label elements are used to help associate the text for an input element with the input element itself (especially for assistive technologies like screen readers). For example, <label><input type="radio"> cat</label> makes it so clicking the word cat also selects the corresponding radio button.
+Nest your radio button inside a label element.
+
+The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
+Add an id attribute with the value indoor to the radio button.
+
+Imp-When elements have multiple attributes, the order of the attributes doesn't matter.
+Notice that both radio buttons can be selected at the same time. To make it so selecting one radio button automatically deselects the other, both buttons must have a name attribute with the same value.
+Add a name attribute of same value to select only one of them.
 
