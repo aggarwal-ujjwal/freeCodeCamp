@@ -76,3 +76,13 @@ Nest the Indoor and Outdoor radio buttons within a fieldset element, and don't f
 
 The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form.
 
+
+Forms commonly use checkboxes for questions that may have more than one answer. For example, here's a checkbox with the option of tacos: <input type="checkbox"> tacos.
+
+There's another way to associate an input element's text with the element itself. You can nest the text within a label element and add a for attribute with the same value as the input element's id attribute.
+
+Like radio buttons, form data for selected checkboxes are name / value attribute pairs. While the value attribute is optional, it's best practice to include it with any checkboxes or radio buttons on the page.
+Add a value attribute to each checkbox. For convenience, set each checkbox's value attribute to the same value as its id attribute
+
+In order to make a checkbox checked or radio button selected by default, you need to add the checked attribute to it. There's no need to set a value to the checked attribute. Instead, just add the word checked to the input element, making sure there is space between it and other attributes.
+
