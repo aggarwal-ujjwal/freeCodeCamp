@@ -86,3 +86,14 @@ Add a value attribute to each checkbox. For convenience, set each checkbox's val
 
 In order to make a checkbox checked or radio button selected by default, you need to add the checked attribute to it. There's no need to set a value to the checked attribute. Instead, just add the word checked to the input element, making sure there is space between it and other attributes.
 
+Everything you've added to the page so far is inside the body element. All page content elements that should be rendered to the page go inside the body element. However, other important information goes inside the head element.
+Add a head element above the body element.
+
+Notice that the entire contents of the page are nested within an html element. All other elements must be descendants of this html element.
+Add the lang attribute with the value en to the opening html tag to specify that the language of the page is English.
+
+All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+
+You can set browser behavior by adding self-closing meta elements in the head. Here's an example:
+<meta attribute="value">
+Tell the browser to parse the markup into multiple languages by creating a meta element as a child of the head element. Set its charset attribute to UTF-8.
