@@ -9,4 +9,8 @@ eg - h1{
          }
 This will shift h1 to center
 
+we can add more like h1,h2,p{} and all will follow the same style
+As there will be many styles-> we make a separate css file not included in html
+
+Now you need to link the styles.css file so the styles will be applied again. Nest a self-closing link element in the head element. Give it a rel attribute value stylesheet and an href attribute value of styles.css
 
