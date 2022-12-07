@@ -14,3 +14,11 @@ As there will be many styles-> we make a separate css file not included in html
 
 Now you need to link the styles.css file so the styles will be applied again. Nest a self-closing link element in the head element. Give it a rel attribute value stylesheet and an href attribute value of styles.css
 
+link is a self closing element in head
+
+Step 17
+For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> //Added for fitting the device width
+
+
+
