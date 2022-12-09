@@ -20,5 +20,7 @@ Step 17
 For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
 <meta name="viewport" content="width=device-width, initial-scale=1.0" /> //Added for fitting the device width
 
+Add another style to the file that changes the background-color property to brown for the body element.
+
 
 
