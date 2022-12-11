@@ -32,3 +32,9 @@ width can be changed to percentage like 80% of parent element
 Center the div horizontally-> You can do this by setting its margin-left and margin-right properties to auto. Think of the margin as invisible space around an element. Using these two margin properties, center the div element within the body element.
 The whole idea idea of div to use for design layout purposes.
 
+ A class selector is defined by a name with a dot directly in front of it, like this:
+
+.class-name {              .menu{
+  styles            ->>       styles
+}                           }
+
