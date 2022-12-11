@@ -24,5 +24,7 @@ Add another style to the file that changes the background-color property to brow
 
 
 The div element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a div element inside the body element and then move all the other elements inside the new div.
+The goal now is to make the div not take up the entire width of the page. The CSS width property is perfect for this. Create a new type selector in the style sheet that gives your div element a width of 300px.
+
 The whole idea idea of div to use for design layout purposes.
 
