@@ -38,3 +38,12 @@ The whole idea idea of div to use for design layout purposes.
   styles            ->>       styles
 }                           }
 
+
+That is kind of what you want, but now it would be nice if the flavor and price were on the same line. p elements are block-level elements, so they take up the entire width of their parent element
+To get them on the same line, you need to apply some styling to the p elements, so they behave more like inline elements
+
+The p elements are nested in an article element with the class attribute of item. You can style all the p elements nested anywhere in elements with a class named item like this:
+.item p { }
+Using the above selector, add a display property with value inline-block so the p elements behave more like inline elements.
+Go to stp-36,37 if want to bring elements inline.
+
