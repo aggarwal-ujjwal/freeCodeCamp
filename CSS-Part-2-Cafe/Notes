@@ -47,3 +47,9 @@ The p elements are nested in an article element with the class attribute of item
 Using the above selector, add a display property with value inline-block so the p elements behave more like inline elements.
 Go to stp-36,37 if want to bring elements inline.
 
+The current width of the menu will always take up 80% of the body element's width. On a very wide screen, the coffee and dessert appear far apart from their prices.
+Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide.
+
+You can change the font-family of text, to make it look different from the default font of your browser. Each browser has some common fonts available to it.
+Change all the text in your body, by adding a font-family property with the value sans-serif. This is a fairly common font that is very readable.
+
