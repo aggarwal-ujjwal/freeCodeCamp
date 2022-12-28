@@ -19,6 +19,9 @@ body {
   padding-bottom:20px;
   Removing all 4 padding because all are same and ust using one property(padding)*/
 }
+h1, h2 {
+  font-family: Impact;
+}
 .flavor, .dessert{
   text-align:left;
   width:75%;
